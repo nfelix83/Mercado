@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portland Mercado</title>
+</head>
+
+<body id="page">
+    <link rel="stylesheet" href="local - Carousel.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <div class='header container-fluid'>
+        <div class='header-top row'>
+            <div id="header-bar-left" class="col-xs-4 col-sm-5">
+                <a href='https://twitter.com/PortlandMercado'>
+                    <span id='icon-2' class='icon fa-stack fa-lg'>
+						<i id='tw' class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-icon fa-twitter fa-stack-1x"></i>
+					</span>
+                </a>
+                <a href='https://www.facebook.com/PortlandMercado'>
+                    <span id='icon-1' class='icon fa-stack fa-lg'>
+						<i id='fb' class="fa fa-circle fa-stack-2x"></i>
+						<i id= 'test' class="fa fa-icon fa-facebook-f fa-stack-1x"></i>
+					</span>
+                </a>
+			    <div class="dropdown">
+				  <button id="myBtn" type="button" data-toggle="dropdown">Menu
+				  <span class="caret"></span></button>
+				  <ul class="dropdown-menu">
+				    <li><a href="http://www.portlandmercado.com/get-involved">GET INVOLVED</a></li>
+				    <li><a href="http://www.portlandmercado.com/background-information/">ABOUT US</a></li>
+				    <li><a href="http://www.portlandmercado.com/menus">BUSINESSES</a></li>
+				    <li><a href="http://www.portlandmercado.com/events/">EVENTS</a></li>
+				  </ul>
+				</div>
+            </div>
+            <div id='logo-frame' class='col-xs-4 col-sm-2'>
+                <a href "http://www.portlandmercado.com/">
+                    <img id='logo' src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55c42a57e4b03ca91f25aaec/1438919255285/Portland-Mercado-final+-+Copy.png" alt="Mercado logo">
+                </a>
+            </div>
+            <div id="header-bar-right" class="col-xs-4 col-sm-5">
+                <a href='http://instagram.com/portlandmercado'>
+                    <span id='icon-3' class='icon fa-stack fa-lg'>
+						<i id='ig' class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-icon fa-instagram fa-stack-1x"></i>
+					</span>
+                </a>
+                <a href='http://www.portlandmercado.com/find-us/'>
+                    <span id='icon-4' class='icon fa-stack fa-lg'>
+						<i id='gm' class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-icon fa-map-marker fa-stack-1x"></i>
+					</span>
+                </a>
+                
+                <div id="google_translate_element"></div>
+        
+            </div>
+        </div>
+        <div class='myNav row'>
+        	<div class='filler col-xs-1 col-sm-0'></div>
+            <div class="nav-left col-xs-3 col-sm-5">
+                <span class="nav-link nav-link-left">
+					<a id='nav2' href="http://www.portlandmercado.com/get-involved">GET INVOLVED</a>
+				</span>
+                <span class="nav-link nav-link-left">
+                    <a id='nav1' href="http://www.portlandmercado.com/menus">MENUS</a>
+					
+				</span>
+            </div>
+            <div class='filler col-xs-4 col-sm-2'></div>
+            <div class="nav-right col-xs-3 col-sm-5">
+                <span class="nav-link nav-link-right">
+					<a id='nav3' href="http://www.portlandmercado.com/events/">EVENTS</a>
+				</span>
+                <span class="nav-link nav-link-right">
+                    <a id='nav4' href="http://www.portlandmercado.com/background-information/">ABOUT US</a>
+                </span>
+            </div>
+            <div class='filler col-xs-1 col-sm-0'></div>
+        </div>
+    </div>
+    <div id="myCarousel" class="carousel slide">
+        <ol class='carousel-indicators'>
+            <li data-target="#myCarousel" data-slide-to="0" class='active'></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class='carousel-inner'>
+            <div class='item active'>
+                <img src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55d04a44e4b06bd4bea75bf7/1439713860594/Latin+Taste.jpg" class='img-responsive'>
+                <a class="slide-link" href="http://www.portlandmercado.com/tla/">
+                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
+                        <div class='image-text'>
+                            <p id='slide1-text'>Learn More and Apply to Sell!</p>
+                        </div>
+                    </div>
+               </a>
+            </div>
+            <div class='item'>
+                <img src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55d04a52e4b0ef57d7cfca0f/1439713874058/barrio.jpg" class='img-responsive'>
+                <a class="slide-link" href="http://www.portlandmercado.com/background-information/">
+                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
+                        <div class='image-text'>
+                            <p id='slide2-text'>A Bridge Between Cultures</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class='item'>
+                <img src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55d04a54e4b0ef57d7cfca10/1439713876072/food2.jpg" class='img-responsive'>
+                <a class="slide-link" href="http://www.portlandmercado.com/menus">
+                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
+                        <div class='image-text'>
+                            <p id='slide3-text'>Prepared Foods From Regions of Latin America</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class='item'>
+                <img src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55d04a57e4b0ef57d7cfca19/1439713879224/markethall.jpg" class='img-responsive'>
+                <a class="slide-link" href="http://www.portlandmercado.com/vendors/">
+                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
+                        <div class='image-text'>
+                            <p id='slide4-text'>Groceries, Beer, Wine, Meats, Coffee, Fresh Food</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <script>
+    $(document).ready(function() {
+        (function() {
+            var color;
+            var $el;
+            var isIcon;
+            $('#nav1, #nav2, #nav3, #nav4, .fa-icon').on('mouseenter', function(e) {
+                if ($(this).hasClass('fa-icon')) {
+                    $el = $(this).prev();
+                    color = $el.css('color');
+                    $el.css('color', '#FAE90B');
+                    $el.next().css('color', '#000');
+                    isIcon = true;
+                } else {
+                    $el = $(this);
+                    color = $el.css('color');
+                    $el.css('color', '#FAE90B');
+                    isIcon = false;
+                }
+
+
+            });
+            $('#nav1, #nav2, #nav3, #nav4, .fa-icon').mousedown(function(e) {
+                if (isIcon) {
+                    $el.next().css('color', '#eee');
+                    $el.css('color', '#000');
+                } else {
+                    $el.css('color', '#aaa');
+                }
+
+            });
+            $('#nav1, #nav2, #nav3, #nav4, .fa-icon').on('mouseup', function(e) {
+                if (isIcon) {
+                    $el.next().css('color', '#eee');
+                }
+                $el.css('color', color);
+            });
+            $('#nav1, #nav2, #nav3, #nav4, .fa-icon').on('mouseleave', function(e) {
+                if (isIcon) {
+                    $el.next().css('color', '#eee');
+                }
+                $el.css('color', color);
+            });
+        })();
+        
+        $('.carousel').carousel();
+    });
+
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,en,es,ja,ko,pt,vi,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+    };
+    
+    </script>
+    
+    <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    
+
+</body>
+
+</html>

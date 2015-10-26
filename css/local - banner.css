@@ -1,0 +1,435 @@
+#page  p{
+	margin: 0 !important;
+}
+
+#header-wrapper {
+    display: none;
+}
+
+.header {
+    max-width: inherit;
+}
+
+.content-inner {
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 0 3% 0;
+}
+
+@font-face {
+    font-family: main;
+    src: url("http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55b5eee3e4b04a1f70532a63/1437986531286/BebasNeue+Bold.otf");
+}
+
+@font-face {
+    font-family: head;
+    src: url("http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55bb12cae4b08c22e014302b/1438323402813/FuturaLT.ttf")
+}
+
+.sqs-block-content {
+    background: #EEE;
+    max-width: 1920px;
+}
+
+.header a {
+    text-decoration: none !important;
+}
+
+.header {
+    background: -webkit-linear-gradient(#aaa, #fff, #eee);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#aaa, #fff, #eee);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#aaa, #fff, #eee);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to #aaa, #fff, #eee);
+    /* Standard syntax */
+}
+
+#logo {
+    width: 100%;
+    z-index: 9;
+}
+
+#logo-frame {
+    padding: 0;
+}
+
+.fa-stack {
+    font-size: 1.5vw !important;
+}
+
+.fa {
+    font-size: 2em;
+}
+
+#fb {
+    color: #f26522;
+}
+
+#tw {
+    color: #e72825;
+}
+
+#ig {
+    color: #39b6e8;
+}
+
+#gm {
+    color: #3cb64a;
+}
+
+.fa-icon {
+    color: #eee;
+}
+
+#header-bar-left {
+    padding: 0;
+}
+
+#header-bar-right {
+    padding: 0;
+}
+
+#icon-1 {
+    float: right;
+}
+
+#icon-2 {
+    float: right;
+}
+
+#icon-3 {
+    float: left;
+}
+
+#icon-4 {
+    float: left;
+}
+
+.dropdown{
+	display: none;
+}
+
+.nav-left {
+    width: 42.5%;
+    float: left;
+    position: relative;
+    bottom: 79px;
+}
+
+.nav-link-left {
+    float: left;
+}
+
+.nav-right {
+    width: 42.5%;
+    float: right;
+    position: relative;
+    bottom: 79px;
+}
+
+.nav-link-right {
+    float: right;
+}
+
+.nav-link a {
+    font-family: main;
+    font-size: 2.15vw;
+}
+
+.nav-link-left a {
+    margin: 0 75px 0 0;
+}
+
+.nav-link-right a {
+    margin: 0 0 0 75px;
+}
+
+#nav1 {
+    color: #f26522;
+}
+
+#nav2 {
+    color: #e72825;
+}
+
+#nav3 {
+    color: #39b6e8;
+}
+
+#nav4 {
+    color: #3cb64a;
+}
+
+#myBanner {
+    position: relative;
+    bottom: 40px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+#bannerImage {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.goog-te-gadget{
+	top: 0;
+	right: 0;
+	position: absolute;
+	display: block;
+}
+
+#google_translate_element * {
+    float: right;
+    border: none;
+    border-left: none !important;
+    font-family: main;
+    font-size: 1.3vw;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+#google_translate_element img {
+    display: none;
+}
+
+#google_translate_element *:hover {
+    color: #FAE90B;
+}
+
+.goog-te-menu-value span:nth-of-type(3) {
+    display: none;
+}
+
+.sqs-block p, figure{
+    font-family: "katarine-web";
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#bannerTextBox {
+    position: absolute !important;
+    bottom: 0;
+    background-color: rgba(240, 240, 240, 1);
+    -webkit-box-shadow: 8px 8px 6px -6px #000;
+    -moz-box-shadow: 8px 8px 6px -6px #000;
+    box-shadow: 8px 8px 6px -6px #000;
+    margin: 0 33% 6px;
+}
+
+.bannerText {
+    position: relative;
+    border: solid 2.5px #555;
+    margin: 5%;
+    text-align: center;
+    color: #444;
+}
+
+#bannerText {
+    font-family: head !important;
+    font-size: 1.8vw !important;
+}
+
+@media screen and (max-width: 1200px) {
+    #google_translate_element * {
+        font-size: 1.7vw !important;
+    }
+    .fa-stack{
+        font-size: 2vw !important;
+    }
+    .nav-link a {
+    font-size: 2.5vw !important;
+    }
+    #myBanner{
+    	bottom: 30px !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+	.nav-left, .nav-right{
+		bottom: 50px !important;
+	}
+	#myBanner{
+    	bottom: 20px !important;
+    }
+    #bannerText{
+    	font-size: 2.2vw !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+	#bannerTextBox{
+		margin: 0 29.166666667% 6px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+    .fa-stack{
+    	font-size: 2.2vw !important;
+    }
+    
+    .nav-link a {
+    font-size: 2.4vw !important;
+	}
+	.nav-left, .nav-right{
+		bottom: 40px !important;
+	}
+	#bannerTextBox {
+    padding: 0 5px !important;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.fa-stack{
+    	font-size: 2.8vw !important;
+    }
+	.nav-link-left{
+		float: right;
+	}
+	.nav-link-right{
+		float: left;
+	}
+	.nav-left, .nav-right{
+		bottom: 100px !important;
+	}
+	.nav-link a {
+    font-size: 4vw !important;
+	}
+	#nav1{
+		margin: 0!important;
+	}
+	#nav2{
+		margin: 0!important;
+	}
+	#nav3{
+		margin: 0!important;
+	}
+	#nav4 {
+		margin: 0;
+	}
+	#google_translate_element * {
+        font-size: 2.5vw !important;
+    }
+    #myBanner{
+    	bottom: 50px !important;
+    	overflow: hidden !important;
+    	position: relative !important;
+    }
+    #bannerTextBox {
+    margin: 0 25% 5px;
+	}
+	#bannerText{
+    	font-size: 2.5vw !important;
+    }
+}
+
+@media screen and (max-width: 650px){
+	.fa-stack{
+    	font-size: 3.2vw !important;
+    }
+	.nav-left, .nav-right{
+		bottom: 75px !important;
+	}
+	.nav-link a {
+    font-size: 4vw !important;
+	}
+	#google_translate_element * {
+        font-size: 3vw !important;
+    }
+    #myBanner{
+    	bottom: 50px !important;
+    }
+    #bannerTextBox {
+    margin: 0 25% 4px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.fa-stack{
+    	font-size: 3.5vw !important;
+    }
+	.nav-left, .nav-right{
+		bottom: 50px !important;
+	}
+	.nav-link a {
+    font-size: 4.3vw !important;
+	}
+	#google_translate_element * {
+        font-size: 3vw !important;
+    }
+    #bannerTextBox {
+    margin: 0 25% 4px;
+    padding: 0 2px !important;
+	}
+    #bannerText{
+    	font-size: 3vw !important;
+    }
+    .myNav{
+        display: none;
+    }
+    .goog-te-gadget{
+        margin: 0 50px 0 0 !important;
+        position: static;
+        float: left !important;
+    }
+    #myBanner{
+        bottom: 0px !important;
+    }
+    .dropdown{
+        display: block;
+        margin: 0 0 0 50px;
+    }
+    #myBtn{
+        float: right;
+        font-family: main;
+        font-size: 3.5vw;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background-color: transparent;
+    }
+    #myBtn:hover{
+        color: #FAE90B;
+    }
+    .dropdown-menu a{
+        font-family: main;
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 435px){
+	.fa-stack{
+    	font-size: 4vw !important;
+    }
+	#google_translate_element * {
+        font-size: 4.5vw !important;
+    }
+    #myBtn{
+    	font-size: 4.5vw;
+    }
+    .dropdown-menu a{
+    	font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 330px){
+	.fa-stack{
+    	font-size: 5vw !important;
+    }
+	#google_translate_element * {
+        font-size: 5.5vw !important;
+    }
+    #myBtn{
+    	font-size: 5.5vw;
+    }
+    .dropdown-menu a{
+    	font-size: 4.5vw;
+    }
+}
