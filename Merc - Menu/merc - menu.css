@@ -234,6 +234,7 @@
 .image-text-box {
     position: absolute !important;
     bottom: 0;
+    border-radius: .1vw;
     background-color: rgba(240, 240, 240, 1);
     -webkit-box-shadow: 8px 8px 6px -6px #000;
     -moz-box-shadow: 8px 8px 6px -6px #000;
@@ -243,6 +244,7 @@
 
 .image-text {
     position: relative;
+    border-radius: .2vw;
     border: solid 2.5px #555;
     margin: 5%;
     text-align: center;
@@ -254,11 +256,16 @@
     font-size: 1.8vw !important;
 }
 
+.header-frame{
+    padding: 0;
+}
+
 .menu-item{
-/*    border: .5vw outset;
-*/    padding: 0 !important;
+    border: .5vw outset;
+    padding: 0 !important;
     width: 45% !important;
     margin: 2.5%;
+    background-color: #f0f0f0;
 }
 
 .menu-item{
@@ -283,6 +290,42 @@
 .menu-item img{
     width: 90%;
     margin: 0 5%;
+}
+
+.menu-item a{
+    color: #444;
+    text-decoration: none !important;
+}
+
+.menu-item:nth-child(4n) a:hover:nth-child(1){
+    color: #39b6e8;
+}
+
+.menu-item:nth-child(4n+1) a:hover:nth-child(1){
+    color: #e72825;
+}
+
+.menu-item:nth-child(4n+2) a:hover:nth-child(1){
+    color: #f26522;
+}
+
+.menu-item:nth-child(4n+3) a:hover:nth-child(1){
+    color: #3cb64a;
+}
+
+.menu-item-nav a:hover{
+    color: #222 !important;
+    font-weight: 600;
+}
+
+.menu-header{
+    width: 90%;
+    margin: auto;
+}
+
+.menu-head, .menu-body{
+    font-family: head;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -310,6 +353,9 @@
     .slide-text{
     	font-size: 2.2vw !important;
     }
+    .menu-item{
+    font-size: 1.75vw;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -317,6 +363,19 @@
 		margin: 0 29.166666667% 6px;
 	}
 }
+
+@media screen and (max-width: 900px){
+    .head-frame{
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 821px){
+    .menu-head{
+        font-size: 3.5vw;
+    }
+}
+
 
 @media screen and (max-width: 800px) {
     .fa-stack{
@@ -332,6 +391,9 @@
 	.image-text-box {
     padding: 0 5px !important;
 	}
+    .menu-item p{
+    font-size: 2vw !important;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -378,6 +440,17 @@
     }
 }
 
+@media screen and (max-width: 700px){
+    .menu-body{
+        font-size: 2.8vw;
+    }
+
+    #menu-indoor, #menu-outdoor{
+        padding: 0;
+    }
+}
+
+
 @media screen and (max-width: 650px){
 	.fa-stack{
     	font-size: 3.2vw !important;
@@ -397,6 +470,28 @@
     .image-text-box {
     margin: 0 25% 4px;
 	}
+
+    .menu-frame{
+        padding: 0 7.5px !important;
+    }
+    .menu-item{
+        margin: 2% .5%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .menu-item{
+        width: 100% !important;
+    }
+    .menu-item p{
+    font-size: 3vw !important;
+    }
+    .menu-head{
+        font-size: 4vw;
+    }
+    .menu-body{
+        font-size: 3.3vw;
+    }
 }
 
 @media screen and (max-width: 500px){

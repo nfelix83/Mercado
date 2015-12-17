@@ -7,11 +7,15 @@
 </head>
 
 <section id="page">
-    <link rel="stylesheet" href="local.css">
+    <!-- STYLESHEET FOR WORKING LOCALLY, OTHERWISE INJECT INTO HEADER -->
+    <!-- <link rel="stylesheet" href="css/local.css"> -->
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+    
+    <!-- NAVBAR/HEADER/CAROUSEL -->
     <div class='header container-fluid'>
+        <!-- MEDIA (FB,IG,ETC..) LINK BUTTONS AND MAIN LOGO-->
         <div class='header-top row'>
             <div id="header-bar-left" class="col-xs-4 col-sm-5">
                 <a href='https://twitter.com/PortlandMercado'>
@@ -26,19 +30,20 @@
                         <i id= 'test' class="fa fa-icon fa-facebook-f fa-stack-1x"></i>
                     </span>
                 </a>
+                <!-- DROPDOWN MENU FOR MOBILE -->
                 <div class="dropdown">
                   <button id="myBtn" type="button" data-toggle="dropdown">Menu
                   <span class="caret"></span></button>
                   <ul class="dropdown-menu">
-                    <li><a href="http://www.portlandmercado.org/get-involved">GET INVOLVED</a></li>
-                    <li><a href="http://www.portlandmercado.org/background-information/">ABOUT US</a></li>
-                    <li><a href="http://www.portlandmercado.org/menus">SHOP & EAT</a></li>
-                    <li><a href="http://www.portlandmercado.org/events/">EVENTS</a></li>
+                    <li><a href="http://www.portlandmercado.com/get-involved">GET INVOLVED</a></li>
+                    <li><a href="http://www.portlandmercado.com/background-information/">ABOUT US</a></li>
+                    <li><a href="http://www.portlandmercado.com/menus">BUSINESSES</a></li>
+                    <li><a href="http://www.portlandmercado.com/events/">EVENTS</a></li>
                   </ul>
                 </div>
             </div>
             <div id='logo-frame' class='col-xs-4 col-sm-2'>
-                <a href "http://www.portlandmercado.org/">
+                <a href "http://www.portlandmercado.com/">
                     <img id='logo' src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55c42a57e4b03ca91f25aaec/1438919255285/Portland-Mercado-final+-+Copy.png" alt="Mercado logo">
                 </a>
             </div>
@@ -49,7 +54,7 @@
                         <i class="fa fa-icon fa-instagram fa-stack-1x"></i>
                     </span>
                 </a>
-                <a href='http://www.portlandmercado.org/find-us/'>
+                <a href='http://www.portlandmercado.com/find-us/'>
                     <span id='icon-4' class='icon fa-stack fa-lg'>
                         <i id='gm' class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-icon fa-map-marker fa-stack-1x"></i>
@@ -60,29 +65,38 @@
         
             </div>
         </div>
+        <!-- NAV LINKS -->
         <div class='myNav row'>
             <div class='filler col-xs-1 col-sm-0'></div>
             <div class="nav-left col-xs-3 col-sm-5">
                 <span class="nav-link nav-link-left">
-                    <a id='nav2' href="http://www.portlandmercado.org/get-involved">GET INVOLVED</a>
+                    <a id='nav2' href="http://www.portlandmercado.com/get-involved">GET INVOLVED</a>
                 </span>
                 <span class="nav-link nav-link-left">
-                    <a id='nav1' href="http://www.portlandmercado.org/menus">SHOP & EAT</a>
+                    <a id='nav1' href="http://www.portlandmercado.com/menus">SHOP & EAT</a>
                     
                 </span>
             </div>
             <div class='filler col-xs-4 col-sm-2'></div>
             <div class="nav-right col-xs-3 col-sm-5">
                 <span class="nav-link nav-link-right">
-                    <a id='nav3' href="http://www.portlandmercado.org/events/">EVENTS</a>
+                    <a id='nav3' href="http://www.portlandmercado.com/events/">EVENTS</a>
                 </span>
                 <span class="nav-link nav-link-right">
-                    <a id='nav4' href="http://www.portlandmercado.org/background-information/">ABOUT US</a>
+                    <a id='nav4' href="http://www.portlandmercado.com/background-information/">ABOUT US</a>
                 </span>
             </div>
             <div class='filler col-xs-1 col-sm-0'></div>
         </div>
     </div>
+
+    <!-- CAROUSEL -->
+    <!-- Steps for creating new carousel item:
+    1.  Add item to carousel indicators
+    2.  Add new item to carousel
+        A.  Suggest uploading image to static site such as IMGUR and using uploaded image address
+        B.  Image size or crop needs to be same ratio as 1920 x 709
+    -->
     <div id="myCarousel" class="carousel slide">
         <ol class='carousel-indicators'>
             <li data-target="#myCarousel" data-slide-to="0" class='active'></li>
@@ -90,14 +104,36 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
             <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <!-- STEP ONE ADD NEW <li data-target="#myCarousel" data-slide-to="INSERT NEXT NUMBER"></li> -->
         </ol>
         <div class='carousel-inner'>
             <div class='item active'>
+                <img src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55d04a52e4b0ef57d7cfca0f/1439713874058/barrio.jpg" class='img-responsive'>
+                <a class="slide-link" href="http://www.portlandmercado.org/background-information/">
+                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
+                        <div class='image-text'>
+                            <p id='slide1-text'>Open Daily 10am-8pm Sun. - Thurs. / Fri. & Sat. 10a,-9pm. Hours may vary</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class='item'>
+                <img src="http://i.imgur.com/YVHXL2C.jpg" class='img-responsive'>
+                <a class="slide-link" href="http://sandinobrotherscoffee.com/">
+                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
+                        <div class='image-text'>
+                            <p id='slide2-text'>Dec. 12th: Portland Posada Holiday Celebration and 9 Day Craft Shop!</p>
+                        </div>
+                    </div>
+               </a>
+            </div>
+            <div class='item'>
                 <img src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/56050002e4b00d9e093d621f/1443168258098/coffee.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://sandinobrotherscoffee.com/">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
-                            <p id='slide1-text'>Now Open! Foster Road’s first coffee roaster, Sandino Coffee!</p>
+                            <p id='slide3-text'>Now Open! Foster Road’s first coffee roaster, Sandino Coffee!</p>
                         </div>
                     </div>
                </a>
@@ -107,27 +143,17 @@
                 <a class="slide-link" href="http://www.portlandmercado.org/events/espiritu">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
-                            <p id='slide1-text'>Entrepreneurial Spirit Exhibit: Latinos in Oregon. Grand Opening 10.15!</p>
+                            <p id='slide4-text'>Entrepreneurial Spirit Exhibit: Latinos in Oregon. Open now!</p>
                         </div>
                     </div>
                </a>
-            </div>
-            <div class='item'>
-                <img src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55d04a52e4b0ef57d7cfca0f/1439713874058/barrio.jpg" class='img-responsive'>
-                <a class="slide-link" href="http://www.portlandmercado.org/background-information/">
-                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
-                        <div class='image-text'>
-                            <p id='slide2-text'>A Bridge Between Cultures</p>
-                        </div>
-                    </div>
-                </a>
             </div>
             <div class='item'>
                 <img src="http://static1.squarespace.com/static/52b0ec2fe4b09532a541e01c/t/55d04a54e4b0ef57d7cfca10/1439713876072/food2.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/menus">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
-                            <p id='slide3-text'>Prepared Foods From Regions of Latin America</p>
+                            <p id='slide5-text'>Prepared Foods From Regions of Latin America with heated indoor seating. </p>
                         </div>
                     </div>
                 </a>
@@ -137,11 +163,22 @@
                 <a class="slide-link" href="http://www.portlandmercado.org/vendors/">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
-                            <p id='slide4-text'>Groceries, Beer, Wine, Meats, Coffee, Fresh Food</p>
+                            <p id='slide6-text'>Heated Indoor Seating with groceries, beer, coffee and more!</p>
                         </div>
                     </div>
                 </a>
             </div>
+            <!-- STEP TWO ADD NEW
+            <div class='item'>
+                <img src="IMAGE ADDRESS" class='img-responsive'>
+                <a class="slide-link" href="ENTER ADDRESS TO LINK TEXT BOX TO">
+                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
+                        <div class='image-text'>
+                            <p class='slide-text'>TEXT BOX TEXT</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -153,19 +190,8 @@
         </a>
     </div>
 
-    <h1>Truffaut mlkshk fanny pack, Neutra drinking vinegar Carles dreamcatcher 8-bit Portland swag. Cray lomo readymade asymmetrical, taxidermy High Life stumptown kale chips. Austin Tumblr Williamsburg quinoa flexitarian. Meggings irony mustache quinoa kogi tofu normcore lo-fi next level street art pug. Fixie DIY asymmetrical listicle scenester distillery. Pinterest disrupt artisan, lumbersexual authentic keytar church-key organic fixie 3 wolf moon. Hashtag banh mi twee Helvetica, blog Thundercats wayfarers quinoa kitsch sriracha iPhone before they sold out Vice mixtape.
-
-Wes Anderson street art vegan cray, sustainable freegan small batch craft beer pour-over PBR farm-to-table authentic tofu meh raw denim. Banh mi PBR&B umami, YOLO 90's bicycle rights High Life messenger bag chia Shoreditch Schlitz jean shorts. Literally pop-up Vice, Wes Anderson trust fund master cleanse Marfa yr. Hella ennui 3 wolf moon kale chips. Cold-pressed kogi kale chips slow-carb whatever. Put a bird on it cornhole mustache Williamsburg keffiyeh squid. 8-bit tote bag Portland master cleanse, artisan migas quinoa gastropub cardigan whatever kale chips 3 wolf moon.
-
-Ethical bicycle rights kogi, chambray hella before they sold out sriracha organic next level plaid keffiyeh try-hard Pinterest +1. Distillery Shoreditch locavore mlkshk. Beard forage plaid scenester put a bird on it, pork belly flexitarian crucifix blog 8-bit. Banksy tote bag Wes Anderson, tattooed try-hard heirloom Pinterest meh Helvetica Portland. Fashion axe 90's Odd Future, fanny pack single-origin coffee skateboard Echo Park paleo Truffaut readymade normcore taxidermy craft beer leggings direct trade. Odd Future tousled freegan, migas Williamsburg letterpress umami forage cliche single-origin coffee VHS before they sold out. Jean shorts typewriter cronut, cardigan normcore trust fund polaroid salvia chambray locavore.
-
-Banh mi tofu raw denim, health goth asymmetrical locavore PBR Odd Future DIY fanny pack Portland. Raw denim try-hard Carles selfies chia leggings. Mustache forage food truck Truffaut Carles tofu, gastropub art party leggings salvia cred Tumblr keytar brunch. Bushwick farm-to-table 90's VHS street art heirloom fanny pack fixie. Helvetica retro gastropub, flannel trust fund health goth irony lo-fi. Truffaut gentrify try-hard health goth fashion axe whatever. Vinyl semiotics street art artisan.
-Oh. You need a little dummy text for your mockup? How quaint.
-
-I bet you’re still using Bootstrap too…</h1>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!--<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.sticky/1.0.1/jquery.sticky.min.js"></script>
 
@@ -183,31 +209,10 @@ I bet you’re still using Bootstrap too…</h1>
 
     <script>
     $(document).ready(function() {
-        var is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
-        var is_safari = navigator.userAgent.indexOf("Safari") > -1;
-        var is_chrome = navigator.userAgent.indexOf("Chrome") > -1;
-        is_safari = is_safari && !(is_chrome);
-        if( is_firefox || is_safari || screen.width < 768) {
-            $('#myVideo')[0].pause();
-            $('#myModal').remove();
-        } else {
-            $('#myVideo').on('click', function(e) {
-                if ($(this)[0].paused == false) {
-                    $(this)[0].pause();
-                } else {
-                    $(this)[0].play();
-                }
-                e.stopPropagation();
-            });
-            $('#myModal').on('click', function(e) {
-                $('#myVideo')[0].pause();
-            });
-            $('#modalClose').on('click', function(e) {
-                $('#myModal').trigger('click');
-            });
-        };
 
         (function() {
+
+            // ADD STYLE TO HEADER
             var color;
             var $el;
             var isIcon;
@@ -250,7 +255,14 @@ I bet you’re still using Bootstrap too…</h1>
             });
         })();
 
-        $('#myModal').modal('show');
+        //INITIALIZES CAROUSEL
+        $('#myCarousel').css('display', 'block');
+        $('#myCarousel').swiperight(function(){
+            $(this).carousel('prev');
+        });
+        $('#myCarousel').swipeleft(function(){
+            $(this).carousel('next');
+        });
         $('.carousel').carousel();
     });
 

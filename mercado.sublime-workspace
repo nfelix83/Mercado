@@ -120,26 +120,10 @@
 	"buffers":
 	[
 		{
-			"file": "Merc - Menu/merc - menu.css",
-			"settings":
-			{
-				"buffer_size": 7545,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "local.css",
-			"settings":
-			{
-				"buffer_size": 7607,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "Merc - Menu/Merc Menu.html",
 			"settings":
 			{
-				"buffer_size": 24300,
+				"buffer_size": 26971,
 				"line_ending": "Windows"
 			}
 		},
@@ -147,7 +131,7 @@
 			"file": "Mercado.html",
 			"settings":
 			{
-				"buffer_size": 14641,
+				"buffer_size": 13365,
 				"line_ending": "Windows"
 			}
 		}
@@ -210,10 +194,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Eeda/Documents/Mercado Site"
+		"/C/Users/Eeda/Desktop/projects/Mercado Site",
+		"/C/Users/Eeda/Desktop/projects/Mercado Site/css",
+		"/C/Users/Eeda/Desktop/projects/Mercado Site/Merc - Menu"
 	],
 	"file_history":
 	[
+		"/C/Users/Eeda/Desktop/projects/Mercado Site/css/local.css",
+		"/C/Users/Eeda/Desktop/projects/Mercado Site/Merc - Menu/merc - menu.css",
+		"/C/Users/Eeda/Desktop/projects/Mercado Site/Mercado.html",
+		"/C/Users/Eeda/Desktop/projects/Mercado Site/Merc - Menu/Merc Menu.html",
+		"/C/Users/Eeda/Desktop/projects/Mercado Site/local.css",
 		"/C/Users/Eeda/projects/gulp.th/treehouse-gulp-basics/gulpfile.js",
 		"/C/Users/Eeda/projects/gulp.th/treehouse-gulp-basics/js/app.min.js",
 		"/C/Users/Eeda/projects/gulp.th/treehouse-gulp-basics/js/app.js",
@@ -269,6 +260,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"menu-fram",
+			"portlandmercado.com",
 			"nav",
 			"header",
 			"WEBSITE",
@@ -340,6 +333,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"portlandmercado.org",
 			"sticky-nav",
 			"sticky-header",
 			"<a href=\"\">WEBSITE</a>",
@@ -387,84 +381,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Merc - Menu/merc - menu.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7545,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5319,
-								5319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4838.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "local.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7607,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1970,
-								1970
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4140.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "Merc - Menu/Merc Menu.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24300,
+						"buffer_size": 26971,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21128,
-								21128
+								26162,
+								26162
 							]
 						],
 						"settings":
@@ -474,27 +408,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3555.0,
+						"translation.y": 7000.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "Mercado.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14641,
+						"buffer_size": 13365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								391,
-								391
+								11400,
+								11400
 							]
 						],
 						"settings":
@@ -504,7 +438,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2898.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -515,7 +449,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 46.0
+		"height": 23.0
 	},
 	"input":
 	{

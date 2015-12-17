@@ -6,12 +6,16 @@
     <title>Portland Mercado</title>
 </head>
 
-<body id="page">
-    <link rel="stylesheet" href="merc - menu.css">
+<section id="page">
+    <!-- STYLESHEET FOR WORKING LOCALLY, OTHERWISE INJECT INTO HEADER -->
+    <!-- <link rel="stylesheet" href="merc - menu.css"> -->
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+    
+    <!-- NAVBAR/HEADER/CAROUSEL -->
     <div class='header container-fluid'>
+        <!-- MEDIA (FB,IG,ETC..) LINK BUTTONS AND MAIN LOGO-->
         <div class='header-top row'>
             <div id="header-bar-left" class="col-xs-4 col-sm-5">
                 <a href='https://twitter.com/PortlandMercado'>
@@ -26,6 +30,7 @@
 						<i id= 'test' class="fa fa-icon fa-facebook-f fa-stack-1x"></i>
 					</span>
                 </a>
+                <!-- DROPDOWN MENU FOR MOBILE -->
 			    <div class="dropdown">
 				  <button id="myBtn" type="button" data-toggle="dropdown">Menu
 				  <span class="caret"></span></button>
@@ -60,6 +65,7 @@
         
             </div>
         </div>
+        <!-- NAV LINKS -->
         <div class='myNav row'>
         	<div class='filler col-xs-1 col-sm-0'></div>
             <div class="nav-left col-xs-3 col-sm-5">
@@ -83,6 +89,14 @@
             <div class='filler col-xs-1 col-sm-0'></div>
         </div>
     </div>
+
+    <!-- CAROUSEL -->
+    <!-- Steps for creating new carousel item:
+    1.  Add item to carousel indicators
+    2.  Add new item to carousel
+        A.  Suggest uploading image to static site such as IMGUR and using uploaded image address
+        B.  Image size or crop needs to be same ratio as 1920 x 709
+    -->
     <div id="myCarousel" class="carousel slide">
         <ol class='carousel-indicators'>
             <li data-target="#myCarousel" data-slide-to="0" class='active'></li>
@@ -93,10 +107,11 @@
             <li data-target="#myCarousel" data-slide-to="5"></li>
             <li data-target="#myCarousel" data-slide-to="6"></li>
             <li data-target="#myCarousel" data-slide-to="7"></li>
+            <!-- STEP ONE ADD NEW <li data-target="#myCarousel" data-slide-to="INSERT NEXT NUMBER"></li> -->
         </ol>
         <div class='carousel-inner'>
             <div class='item active'>
-                <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\1 - Tierra\Thumb2.jpg" class='img-responsive'>
+                <img src="http://imgur.com/xBciNlx.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/s/TIERRA-DEL-SOL.pdf">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
@@ -106,7 +121,7 @@
                </a>
             </div>
             <div class='item'>
-                <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\2 - El Gato\banner.jpg" class='img-responsive'>
+                <img src="http://imgur.com/AfDSxvp.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/s/EL-GATO-TUERTO.jpg">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
@@ -116,7 +131,7 @@
                 </a>
             </div>
             <div class='item'>
-                <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\3 - Mixteca\banner.jpg" class='img-responsive'>
+                <img src="http://imgur.com/FxoMLu5.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/s/MIXTECAmenuv4.pdf">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
@@ -126,7 +141,7 @@
                 </a>
             </div>
             <div class='item'>
-                <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\4 - Las Adelas\banner.JPG" class='img-responsive'>
+                <img src="http://imgur.com/sGTXkm0.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/s/ADELAS.jpg">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
@@ -136,7 +151,7 @@
                 </a>
             </div>
             <div class='item'>
-                <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\6 - Fernandos\banner.jpg" class='img-responsive'>
+                <img src="http://imgur.com/yvvTLAV.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/s/QUE-BACANO.jpg">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
@@ -146,7 +161,7 @@
                 </a>
             </div>
             <div class='item'>
-                <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\7 - Los Alambres\banner.jpg" class='img-responsive'>
+                <img src="http://imgur.com/ZYzUYMu.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/s/fernando-web-menu.jpg">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
@@ -156,7 +171,7 @@
                 </a>
             </div>
             <div class='item'>
-                <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\8 - Volcanes\banner.JPG" class='img-responsive'>
+                <img src="http://i.imgur.com/cyimEzD.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/s/alambresmenu.jpg">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
@@ -166,7 +181,7 @@
                 </a>
             </div>
             <div class='item'>
-                <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\5 - Que Bacano\banner.jpg" class='img-responsive'>
+                <img src="http://imgur.com/DxGEU8o.jpg" class='img-responsive'>
                 <a class="slide-link" href="http://www.portlandmercado.org/s/5-VOLCANES.jpg">
                     <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
                         <div class='image-text'>
@@ -175,6 +190,17 @@
                     </div>
                 </a>
             </div>
+            <!-- STEP TWO ADD NEW
+            <div class='item'>
+                <img src="IMAGE ADDRESS" class='img-responsive'>
+                <a class="slide-link" href="ENTER ADDRESS TO LINK TEXT BOX TO">
+                    <div class='image-text-box col-xs-6 col-sm-5 col-md-4'>
+                        <div class='image-text'>
+                            <p class='slide-text'>TEXT BOX TEXT</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -185,84 +211,109 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
+    
+    
+    <!-- BUSINESS/MENU -->
     <div id = "menu" class = "row">
-        <div id = 'menu-outdoor' class = 'col-sm-6'>
-            <div class = "menu-frame col-sm-12">
-                <div class = 'menu-item col-sm-6'>
+        <!--
+        SAMPLE BUSINESS, ADD TO CORRESPONDING COLUMN
+        ***IMAGE/CROP SHOULD BE A SQUARE, WILL SCALE ACCORDINGLY***
+        THE MENU, STORY, WEBSITE LINKS CAN BE REMOVED OR REPURPOSED
+
+        <div class = 'menu-item col-xs-12 col-sm-6'>
+            <a href="LINK THAT IMAGE CLICK FOLLOWS (MENU, SITE, ETC...)">
+                <p>BUSINESS TITLE</p>
+                <img src="IMAGE ADDRESS">
+            </a>
+            <p class="menu-item-nav">
+            <a href="MENU LINK">MENU</a>
+            <a href="LINK TO STORY/BIO">STORY</a>
+            <a href="LINK TO FACEBOOK/PERSONAL SITE">WEBSITE</a></p>
+        </div>
+        -->
+        <!-- OUTDOOR/LEFT COLUMN -->
+        <div id = 'menu-outdoor' class = 'col-xs-6'>
+            <div class = "menu-frame col-xs-12">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-xs-12 col-sm-10 small-head-frame head-frame">
+                    <h2 class="menu-head">OUTDOOR CARTS  -  PREPARED FOODS</h2>
+                    <h4 class="menu-body">8 food carts representing the diverse flavors of Latin America. No competing menus! Open daily from 10am-8pm, with some occassional flexibility. On Monday's and Tuesday's, 4 carts are open, and others take the day off.</h4>
+                </div>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/TIERRA-DEL-SOL.pdf">
                         <p>TIERRA DEL SOL OAXACAN CUISINE</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\1 - Tierra\thumb1.jpg">
+                        <img src="http://imgur.com/TZ28XSW.jpg">
                     </a>
                     <p class="menu-item-nav">
-                    <a href="http://www.portlandmercado.org/s/TIERRA-DEL-SOL.pdf">MENU</a>
+                    <a href="http://imgur.com/pl0Tad9.jpg">MENU</a>
                     <a href="http://www.portlandmercado.org/tierradelsol">STORY</a>
                     <a href="http://www.facebook.com/portlandmercado">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/EL-GATO-TUERTO.jpg">
                         <p>EL GATO TUERTO CUBAN/ARGENTINIAN FOOD</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\2 - El Gato\thumb2.jpg">
+                        <img src="http://imgur.com/OKBbvPv.jpg">
                     </a>
                     <p class="menu-item-nav">
-                    <a href="http://www.portlandmercado.org/s/EL-GATO-TUERTO.jpg">MENU</a> 
+                    <a href="http://imgur.com/jlFcFZR.jpg">MENU</a> 
                     <a href="http://www.portlandmercado.org/elgatotuerto">STORY</a> 
                     <a href="https://www.facebook.com/pages/El-Gato-Tuerto-Latin-American-Flavors/543056925795000?fref=ts">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/MIXTECAmenuv4.pdf">
                         <p>MIXTECA PDX TAMALES AND MOLE</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\3 - Mixteca\thumb2.jpg">
+                        <img src="http://imgur.com/BOYWpFA.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/s/MIXTECAmenuv4.pdf">MENU</a> 
                     <a href="http://www.portlandmercado.org/mixteca">STORY</a> 
                     <a href="http://www.mixtecapdx.com/">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/ADELAS.jpg">
                         <p>LAS ADELAS MEXICAN COMFORT FOOD</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\4 - Las Adelas\thumb.jpg">
+                        <img src="http://imgur.com/xOx9m1k.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/s/ADELAS.jpg">MENU</a> 
                     <a href="http://www.portlandmercado.org/lasadelas">STORY</a> 
                     <a href="http://www.adelaspdx.com/">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/QUE-BACANO.jpg">
                         <p>QUÉ BACANO COLOMBIAN FOOD</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\5 - Que Bacano\thumb.jpg">
+                        <img src="http://imgur.com/NdDfolZ.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/s/QUE-BACANO.jpg">MENU</a> 
                     <a href="http://www.portlandmercado.org/fernandos">STORY</a> 
                     <a href="http://www.quebacanofood.com/">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/fernando-web-menu.jpg">
                         <p>FERNANDO'S ALEGRIA BURRITOS AND WRAPS</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\6 - Fernandos\thumb.jpg">
+                        <img src="http://imgur.com/eYkiVPJ.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/s/fernando-web-menu.jpg">MENU</a> 
                     <a href="http://www.portlandmercado.org/fernandos">STORY</a> 
                     <a href="https://www.facebook.com/pages/Fernandos-Mundo-Fiesta/256750533537">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/alambresmenu.jpg">
                         <p>LOS ALAMBRES DOS</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\7 - Los Alambres\thumb.jpg">
+                        <img src="http://imgur.com/WlVmmbp.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/s/alambresmenu.jpg">MENU</a> 
                     <a href="http://www.portlandmercado.org/losalambres">STORY</a> 
                     <a href="https://www.facebook.com/pages/Los-Alambres-Dos/938629572832872">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/5-VOLCANES.jpg">
                         <p>5 VOLCANES EL SALVADORIAN PUPUSERIA</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Outdoor\8 - Volcanes\thumb3.jpg">
+                        <img src="http://imgur.com/F5sJdvk.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/s/5-VOLCANES.jpg">MENU</a> 
@@ -271,93 +322,100 @@
                 </div>
             </div>
         </div>
-        <div id = 'menu-indoor' class = 'col-sm-6'>
-            <div class = "menu-frame col-sm-12">
-                <div class = 'menu-item col-sm-6'>
+        <!-- INDOOR/RIGHT COLUMN -->
+        <div id = 'menu-indoor' class = 'col-xs-6'>
+            <div class = "menu-frame col-xs-12">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-xs-12 col-sm-10 large-head-frame head-frame">
+                <h2 class="menu-head">INDOOR FOOD, GROCERY & SERVICES</h2>
+                <h4 class="menu-body">Indoor heated seating welcomes our anchor businesses for all shopping, grocery and professional needs. Open daily from 10am-8pm Sunday - Thurdsday and 10am-9pm Friday and Saturday. Coffee at 7am, beer until later on the weekends. Service business hours vary. </h4>
+                </div>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="https://www.facebook.com/kaahmarket">
                         <p>KAAH NEIGHBORHOOD MARKET AND GROCERY</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\1 - Kaah\Thumb2.jpg">
+                        <img src="http://imgur.com/SKejIJO.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/kaahmarket">STORY</a> 
                     <a href="https://www.facebook.com/kaahmarket">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/fiestatradicional">
                         <p>FIESTA TRADICIONAL PINATAS AND CANDIES</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\2 - Fiesta\thumb.jpg">
+                        <img src="http://imgur.com/IzepKFc.jpg">
                     </a>
                     <p class="menu-item-nav">
                         <a href="http://www.portlandmercado.org/fiestatradicional">STORY</a>
                     </p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/FruitBoxMenu.pdf">
                         <p>FRUITBOX JUICES, SMOOTHIES, SNACK BAR, CEVICHE</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\3 - Snack Bar\banner.jpg">
+                        <img src="http://imgur.com/P7XZjyb.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/s/FruitBoxMenu.pdf">MENU</a> 
                     <a href="http://www.portlandmercado.org/fruitbox">STORY</a> 
                     <a href="http://www.myfruitbox.com/">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/barrio">
                         <p>BARRIO BEER AND WINE SHOP</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\4 - Barrio\Banner.JPG">
+                        <img src="http://imgur.com/ZRlbnm8.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/barrio">STORY</a>
                     <a href="http://www.barriopdx.com/">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://sandinobrotherscoffee.com/">
                         <p>SANDINO COFFEE ROASTERS</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\10 - Paola\thumb2.jpg">
+                        <img src="http://imgur.com/6vxoR9M.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://sandinobrotherscoffee.com/">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6' id='issue-item'>
+                <div class = 'menu-item col-xs-12 col-sm-6' id='issue-item'>
                     <a href="http://www.portlandmercado.org/donfelipe">
                         <p>DON FELIPE CHORIZOS AND SAUSAGES</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\6 - Don Felipe\thumb4.jpg">
+                        <img src="http://imgur.com/DxeHhpz.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/donfelipe">STORY</a> 
                     <a href="http://donfelipeproducts.com/">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.com/elcarnicero">
                         <p>EL CARNICERO MEAT SHOP</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\7 - El Carnicero\banner.JPG">
+                        <img src="http://imgur.com/Ww555hL.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.com/elcarnicero">STORY</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.micromercantes.com/">
                         <p>MICRO MERCANTES INCUBATOR AND KITCHEN</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\8 - Micro Mercantes\thumb.jpg">
+                        <img src="http://imgur.com/UGjywGj.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.micromercantes.com/">WEBSITE</a> 
                     <a href="http://www.micromercantes.com/kitchen">KITCHEN</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/s/ppt_menu.pdf">
-                        <p>PEOPLE*PLACES*THINGS</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\9 - People PLaces Things\thumb2.jpg">
+                        <p>PEOPLE PLACES THINGS</p>
+                        <img src="http://imgur.com/wk1qG48.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/s/ppt_menu.pdf">SERVICES</a> 
                     <a href="http://www.portlandmercado.org/ppt">STORY</a> 
                     <a href="http://www.pptpdx.com/">WEBSITE</a></p>
                 </div>
-                <div class = 'menu-item col-sm-6'>
+                <div class = 'menu-item col-xs-12 col-sm-6'>
                     <a href="http://www.portlandmercado.org/paolazarate">
                         <p>PAOLA ZARATE INSURANCE</p>
-                        <img src="C:\Users\Eeda\Documents\Mercado Site\Merc - Menu\Indoor\10 - Paola\thumb2.jpg">
+                        <img src="http://imgur.com/3nBkZIk.jpg">
                     </a>
                     <p class="menu-item-nav">
                     <a href="http://www.portlandmercado.org/paolazarate">STORY</a> 
@@ -368,13 +426,15 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!--<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.sticky/1.0.1/jquery.sticky.min.js"></script>
 
     <script>
         
         (function() {
+
+            // ADD STYLE TO HEADER
             var color;
             var $el;
             var isIcon;
@@ -417,6 +477,7 @@
             });
         })();
 
+        //RANDOMIZES INITIAL CAROUSEL SLIDE ORDER
         var items = jQuery.makeArray($('.item'));
         var randItems = [];
         var length = items.length;
@@ -430,25 +491,45 @@
         $($('.item')[0]).addClass('active');
 
         $('#myCarousel').css('display', 'block');
+        $('#myCarousel').swiperight(function(){
+            $(this).carousel('prev');
+        });
+        $('#myCarousel').swipeleft(function(){
+            $(this).carousel('next');
+        });
         $('.carousel').carousel();
 
-        $baseItem = $($('.menu-item')[0]);
-        $issueItem = $('#issue-item');
-        var adjustMenuItemHeight = function($baseItem, $issueItem) {
-            $issueItem.height($baseItem.height());
+
+        //GIVES ALL ELEMENTS UNIFORM HEIGHT, CORRECTS ROUNDING BUG AT CERTAIN SIZES
+        var adjustMenuItemHeight = function() {
+            var $menuItems = $('.menu-item');
+            var maxHeight = jQuery.makeArray($menuItems).sort(function(prev, cur){
+                return $(cur).height() - $(prev).height();
+            });
+            $menuItems.each(function(){
+                $(this).height(maxHeight);
+            });
         };
 
-        $(window).on('orientationchange', adjustMenuItemHeight($baseItem, $issueItem));
+        //GIVES LEFT AND RIGHT MENU HEADER COLUMNS EQUAL HEIGHT SO MENU ITEMS START AT SAME LEVEL ON PAGE
+        var adjustMenuHeadHeight = function(){
+            $(".small-head-frame").css({'height': ($(".large-head-frame").height() + 'px')});
+        }
 
+        $(window).on('orientationchange', adjustMenuItemHeight());
+        $(window).on('orientationchange', adjustMenuHeadHeight());
+
+        //ADJUSTS SIZES ON RESIZE OR ORIENTATION CHANGE
         var doit;
         function resizedw(){
-            adjustMenuItemHeight($baseItem, $issueItem);
+            adjustMenuItemHeight();
+            adjustMenuHeadHeight();
         }
         window.onresize = function() {
             clearTimeout(doit);
             doit = setTimeout(function() {
                 resizedw();
-            }, 100);
+            }, 50);
         };
 
         $(window).trigger('resize');
@@ -463,6 +544,6 @@
     </script>
     
 
-</body>
+</section>
 
 </html>
